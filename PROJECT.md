@@ -80,3 +80,5 @@ Discovery now groups by content type: Projects (Filing Lens), Interactives (One 
 Projects, Interactives and Documents are permanent ordered sections, not selectable filters. Native Field and Direction dropdowns filter their contents. Directions come from existing project topics and narrow to the selected field. Field changes reset direction; Clear filters restores all five items. Empty groups retain their headings and explain no matches. Removed full-text search and content-type filter buttons.
 
 Discovery simplified: one Field dropdown (All fields, Econ, Finance, DS); no direction filter. Permanent content sections retained.
+
+Removed the coin-toss interaction from the homepage at user request; hero now uses a single-column layout.
