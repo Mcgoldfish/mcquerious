@@ -1,0 +1,7 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {operate,startBusiness,MARKET_ORDERS,STARTING_CASH} from './businessModel';
+test('monthly accounting and demand remain conserved across strategies',()=>{for(const coupon of [0,2,5,10]){let s=startBusiness();for(let i=0;i<36;i++){s=operate(s,coupon);assert.ok(s.cash>=0);assert.ok(Math.abs(s.shares.reduce((a,b)=>a+b,0)-1)<1e-10);assert.equal(Math.round(s.shares[0]*MARKET_ORDERS),s.orders);assert.equal(s.cash,Math.round((STARTING_CASH+s.totalProfit)*100)/100);assert.ok(s.returning<=s.orders);}}});
+test('decisions preserve past results and competitors respond the following month',()=>{const initial=startBusiness();const snapshot=structuredClone(initial);const first=operate(initial,10);assert.deepEqual(initial,snapshot);assert.equal(first.jdCoupon,initial.nextJD);assert.ok(first.nextJD>first.jdCoupon);const second=operate(first,0);assert.equal(second.jdCoupon,first.nextJD);assert.equal(second.month,2);assert.ok(second.profit>0);assert.ok(second.returning>0);});
+test('shortage limits coupons while allowing unsubsidized business',()=>{const previous={...startBusiness(),cash:0,totalProfit:-STARTING_CASH};const s=operate(previous,10);assert.equal(s.coupon,3);assert.ok(s.limited);assert.equal(s.profit,0);assert.ok(s.orders>0);assert.ok(operate(s,0).cash>0);});
+test('invalid coupons reject',()=>{for(const c of [-1,11,NaN,Infinity])assert.throws(()=>operate(startBusiness(),c));});

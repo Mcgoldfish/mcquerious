@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.sites-runtime/
+*.zip
+
+# Local hosting state and verification artifacts
+.openai/
+/preview*.log
+/filing-lens-*.png
+/project-header*.png
+/*-demo.jpg
+/portfolio-*.png

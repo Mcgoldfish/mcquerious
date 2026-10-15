@@ -1,0 +1,23 @@
+{
+  "name": "mcquerious",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsx --test src/experiments/filing-lens/search.test.ts src/experiments/prediction-lab/model.test.ts src/experiments/title-lab/model.test.ts src/experiments/food-subsidies/businessModel.test.ts src/experiments/food-subsidies/model.test.ts src/experiments/holdem/model.test.ts src/experiments/stock-playground/model.test.ts src/experiments/market-discovery/model.test.ts src/legacy/models/*.test.ts"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0"
+  }
+}
