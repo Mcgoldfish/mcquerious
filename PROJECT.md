@@ -86,3 +86,5 @@ Removed the coin-toss interaction from the homepage at user request; hero now us
 Field filtering now omits content sections with zero matching items, including their headings and empty-state messages. Econ displays Documents only.
 
 Added decorative hand-drawn SVG cat on the portfolio homepage: follows desktop pointer using frame-based movement, turns, runs, and pounces nearby. Pointer events pass through; hides on touch/reduced motion and pointer exit. No external assets or dependencies.
+
+Opening slide: full first viewport with McQuerious name, McQueen Xu introduction, staggered upward entrance, pointer-responsive typography and orbit accents, plus scroll prompt. Existing cursor cat retained. Collection follows below with natural scrolling; no scroll locking or splash gate. Reduced motion and mobile supported.
