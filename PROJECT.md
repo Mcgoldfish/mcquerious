@@ -75,3 +75,6 @@ Local review precedes publication. GitHub Pages uses the repository workflow and
 
 ## Collection navigation — 2026-10-15
 Discovery now groups by content type: Projects (Filing Lens), Interactives (One More Trade, Prediction Lab, Poker Table), Documents (Subsidizing Competition). Independent Econ / DS / Finance filters combine with content type and case-insensitive topic search. Empty results offer a full reset. Research is included in the interactive section description; written research stays under Documents.
+
+## Discovery refinement — 2026-10-15
+Projects, Interactives and Documents are permanent ordered sections, not selectable filters. Native Field and Direction dropdowns filter their contents. Directions come from existing project topics and narrow to the selected field. Field changes reset direction; Clear filters restores all five items. Empty groups retain their headings and explain no matches. Removed full-text search and content-type filter buttons.
