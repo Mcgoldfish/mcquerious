@@ -82,3 +82,5 @@ Projects, Interactives and Documents are permanent ordered sections, not selecta
 Discovery simplified: one Field dropdown (All fields, Econ, Finance, DS); no direction filter. Permanent content sections retained.
 
 Removed the coin-toss interaction from the homepage at user request; hero now uses a single-column layout.
+
+Field filtering now omits content sections with zero matching items, including their headings and empty-state messages. Econ displays Documents only.
