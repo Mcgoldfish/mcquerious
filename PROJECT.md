@@ -72,3 +72,6 @@ All five illustrated covers have separate charcoal-paper dark variants, selected
 ## McQuerious migration
 Independent copy prepared for https://github.com/Mcgoldfish/mcquerious. Original Aureon checkout is preserved. Branding is McQuerious throughout the copied source. Homepage retains the cream/green identity and five project groups, with a keyboard-accessible coin-toss preview, direct One More Trade entry and a browse link. Coin tosses are illustrative independent browser-random trials, not a prediction tool. Expected exact split probability is C(20,10)/2^20, approximately 17.62%.
 Local review precedes publication. GitHub Pages uses the repository workflow and relative Vite assets.
+
+## Collection navigation — 2026-10-15
+Discovery now groups by content type: Projects (Filing Lens), Interactives (One More Trade, Prediction Lab, Poker Table), Documents (Subsidizing Competition). Independent Econ / DS / Finance filters combine with content type and case-insensitive topic search. Empty results offer a full reset. Research is included in the interactive section description; written research stays under Documents.
