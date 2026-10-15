@@ -84,3 +84,5 @@ Discovery simplified: one Field dropdown (All fields, Econ, Finance, DS); no dir
 Removed the coin-toss interaction from the homepage at user request; hero now uses a single-column layout.
 
 Field filtering now omits content sections with zero matching items, including their headings and empty-state messages. Econ displays Documents only.
+
+Added decorative hand-drawn SVG cat on the portfolio homepage: follows desktop pointer using frame-based movement, turns, runs, and pounces nearby. Pointer events pass through; hides on touch/reduced motion and pointer exit. No external assets or dependencies.
