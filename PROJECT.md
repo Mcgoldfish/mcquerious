@@ -88,3 +88,5 @@ Field filtering now omits content sections with zero matching items, including t
 Added decorative hand-drawn SVG cat on the portfolio homepage: follows desktop pointer using frame-based movement, turns, runs, and pounces nearby. Pointer events pass through; hides on touch/reduced motion and pointer exit. No external assets or dependencies.
 
 Opening slide: full first viewport with McQuerious name, McQueen Xu introduction, staggered upward entrance, pointer-responsive typography and orbit accents, plus scroll prompt. Existing cursor cat retained. Collection follows below with natural scrolling; no scroll locking or splash gate. Reduced motion and mobile supported.
+
+Fixed portfolio header stays at the viewport top with anchor offsets. A compact rope-hung wooden perch and woven nest attach beneath its right border. Optional Add a bird / Remove bird toggle adds an illustrated sage bird; state lasts for the current visit. Perch remains stationary during scrolling, respects reduced motion, and uses native keyboard-accessible controls.
