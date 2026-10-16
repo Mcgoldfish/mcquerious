@@ -90,3 +90,5 @@ Added decorative hand-drawn SVG cat on the portfolio homepage: follows desktop p
 Opening slide: full first viewport with McQuerious name, McQueen Xu introduction, staggered upward entrance, pointer-responsive typography and orbit accents, plus scroll prompt. Existing cursor cat retained. Collection follows below with natural scrolling; no scroll locking or splash gate. Reduced motion and mobile supported.
 
 Fixed portfolio header stays at the viewport top with anchor offsets. A compact rope-hung wooden perch and woven nest attach beneath its right border. Optional Add a bird / Remove bird toggle adds an illustrated sage bird; state lasts for the current visit. Perch remains stationary during scrolling, respects reduced motion, and uses native keyboard-accessible controls.
+
+Perch companion updated to an original rounded owl inspired by animated desktop companions. CSS idle breathing/blinks; hover or keyboard focus animates beak and both wings, tap toggles reaction. No audio. Existing reduced-motion rule suppresses animations. Add/Remove owl stays optional.
