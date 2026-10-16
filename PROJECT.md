@@ -96,3 +96,5 @@ Perch companion updated to an original rounded owl inspired by animated desktop 
 Approved Sage pixel-art owl replaces vector companion. Transparent three-pose sprite sheet bundled locally; stepped background frames provide blinking and alternating open-beak/raised-wing greeting, with subtle idle breathing. Reduced motion preserved.
 
 Added About me link below the opening slide subtitle, targeting the existing bottom About section with the fixed-header scroll offset.
+
+Owl sprite fix: fixed-position frame layers now switch visibility instead of animating background position, preventing sliding between adjacent sprites.

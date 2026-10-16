@@ -15,7 +15,7 @@ export function BirdPerch() {
       <g fill="none" stroke="#927348" strokeWidth="1.7"><path d="M120 102q20 30 43 0Z" fill="#b99b6c"/><ellipse cx="141" cy="102" rx="23" ry="6" fill="#776b49"/><path d="M120 105l39 4m-36 3 31 3m-24-17 24 12m-31-9 23 15m-9-17 20 11"/><path d="M154 98q5-14 14-9q-4 9-14 9" fill="#9aaa78"/></g>
     </svg>
     {bird && <button className={`owl-pet${excited ? ' owl-excited' : ''}`} aria-label="Greet the owl: chirp and flap wings" onClick={() => setExcited(value => !value)} onBlur={() => setExcited(false)}>
-      <span className="sage-pixel-owl" style={{backgroundImage: `url(${assetUrl('sage-owl-sprites.png')})`}} aria-hidden="true"/>
+      <span className="sage-pixel-owl" aria-hidden="true">{[0,1,2].map(frame => <span key={frame} className={`sage-frame sage-frame-${frame}`} style={{backgroundImage: `url(${assetUrl('sage-owl-sprites.png')})`}}/>)}</span>
     </button>}
     <button className="bird-toggle" aria-pressed={bird} onClick={() => setBird(value => !value)}>{bird ? 'Remove owl' : '+ Add an owl'}</button>
     <span className="sr-only" role="status">{bird ? 'Your owl is resting on the perch. Hover, focus, or tap to greet it.' : 'The perch is empty.'}</span>
