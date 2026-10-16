@@ -98,3 +98,5 @@ Approved Sage pixel-art owl replaces vector companion. Transparent three-pose sp
 Added About me link below the opening slide subtitle, targeting the existing bottom About section with the fixed-header scroll offset.
 
 Owl sprite fix: fixed-position frame layers now switch visibility instead of animating background position, preventing sliding between adjacent sprites.
+
+Removed cursor cat at user request. Owl frames now use explicit per-pose SVG crop windows, centered on each owl with wider wing clearance instead of equal-width sheet assumptions.

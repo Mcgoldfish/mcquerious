@@ -1,10 +1,10 @@
 import {BirdPerch} from './BirdPerch';
-import {CursorCat} from './CursorCat';
+
 import type {ReactNode} from 'react';
 
 export function SiteLayout({children}: {children: ReactNode}) {
   return <>
-    <CursorCat/>
+
     <a className="skip-link" href="#main-content">Skip to content</a>
     <header className="portfolio-header">
       <a className="brand" href="#"><span className="brand-icon" aria-hidden="true">✳</span>McQuerious</a>
