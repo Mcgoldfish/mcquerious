@@ -92,3 +92,5 @@ Opening slide: full first viewport with McQuerious name, McQueen Xu introduction
 Fixed portfolio header stays at the viewport top with anchor offsets. A compact rope-hung wooden perch and woven nest attach beneath its right border. Optional Add a bird / Remove bird toggle adds an illustrated sage bird; state lasts for the current visit. Perch remains stationary during scrolling, respects reduced motion, and uses native keyboard-accessible controls.
 
 Perch companion updated to an original rounded owl inspired by animated desktop companions. CSS idle breathing/blinks; hover or keyboard focus animates beak and both wings, tap toggles reaction. No audio. Existing reduced-motion rule suppresses animations. Add/Remove owl stays optional.
+
+Approved Sage pixel-art owl replaces vector companion. Transparent three-pose sprite sheet bundled locally; stepped background frames provide blinking and alternating open-beak/raised-wing greeting, with subtle idle breathing. Reduced motion preserved.
