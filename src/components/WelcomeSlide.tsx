@@ -21,7 +21,7 @@ export function WelcomeSlide() {
     <div className="welcome-orbit orbit-one" aria-hidden="true"/>
     <div className="welcome-orbit orbit-two" aria-hidden="true"/>
     <span className="welcome-spark spark-one" aria-hidden="true">✳</span><span className="welcome-spark spark-two" aria-hidden="true">✧</span>
-    <div className="welcome-content"><p className="eyebrow welcome-enter">A LITTLE CURIOSITY GOES A LONG WAY</p><h1 id="welcome-title" className="welcome-enter">Mc<span>Que</span>rious<span className="welcome-period">.</span></h1><p className="welcome-intro welcome-enter">Hi, I’m McQueen Xu,<br className="mobile-break"/> and this is my portfolio.</p><p className="welcome-subtitle welcome-enter">Big ideas. Small experiments. Follow your curiosity.</p></div>
+    <div className="welcome-content"><p className="eyebrow welcome-enter">A LITTLE CURIOSITY GOES A LONG WAY</p><h1 id="welcome-title" className="welcome-enter">Mc<span>Que</span>rious<span className="welcome-period">.</span></h1><p className="welcome-intro welcome-enter">Hi, I’m McQueen Xu,<br className="mobile-break"/> and this is my portfolio.</p><p className="welcome-subtitle welcome-enter">Big ideas. Small experiments. Follow your curiosity.</p><a className="welcome-about welcome-enter" href="#about">About me <span aria-hidden="true">↘</span></a></div>
     <a className="welcome-scroll welcome-enter" href="#experiments"><span>Scroll down to explore</span><span className="scroll-arrow" aria-hidden="true">↓</span></a>
   </section>;
 }
