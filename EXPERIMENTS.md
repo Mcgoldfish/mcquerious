@@ -78,3 +78,5 @@ Elixir Quant: external app opens in a separate tab; public educational content u
 Elixir Quant portfolio artwork includes a matching dark-mode variant, preserving the original lettering and illustration.
 
 Elixir Quant public backtests now use a 101-security Nasdaq-100 reference and real dated price histories; legacy simulated runs remain separately labelled.
+
+FilingLens is published independently at https://mcgoldfish.github.io/filinglens/ with source at https://github.com/Mcgoldfish/filinglens. Its portfolio card opens the standalone app in a new tab. Existing embedded source remains available.

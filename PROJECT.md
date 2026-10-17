@@ -116,3 +116,5 @@ Elixir Quant live app links open in a new tab with noopener/noreferrer. The publ
 Elixir Quant now has a dedicated dark-mode cover matching the other project cards: forest-green paper, cream ink, sage and gold accents. Theme switching selects elixir-quant-dark.png; light mode retains elixir-quant.png.
 
 Elixir Quant now uses historical adjusted prices for the dated Nasdaq-100 stock reference snapshot, with actual tested dates and Apache ECharts. Portfolio copy updated from synthetic markets. Current-constituent survivorship limitations are stated in the app.
+
+FilingLens is published independently at https://mcgoldfish.github.io/filinglens/ with source at https://github.com/Mcgoldfish/filinglens. Its portfolio card opens the standalone app in a new tab. Existing embedded source remains available.
