@@ -9,6 +9,7 @@ import StockPlayground from './experiments/stock-playground/StockPlayground';
 import FoodSubsidies from './experiments/food-subsidies/FoodSubsidies';
 import PredictionLab from './experiments/prediction-lab/PredictionLab';
 import FilingLens from './experiments/filing-lens/FilingLens';
+import {RepositoryProject} from './components/RepositoryProject';
 
 export default function App() {
   const [hash, setHash] = useState(location.hash);
@@ -34,6 +35,10 @@ export default function App() {
     'stock-playground': StockPlayground,
     'market-discovery': StockPlayground,
   };
+  if ((experiment?.repositoryHref && slug !== 'filing-lens') || (slug === 'filing-lens-project')) {
+    const details = experiment ?? experiments.find(item => item.slug === 'filing-lens')!;
+    return <SiteLayout><RepositoryProject experiment={details}/></SiteLayout>;
+  }
   const Project = slug ? projectPages[slug] : undefined;
   if (Project) {
     const details = experiment ?? experiments.find(item => item.slug === 'stock-playground')!;

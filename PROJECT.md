@@ -1,5 +1,9 @@
 # Small Worlds
 
+## Standalone public projects — 2026-10-17
+
+Elixir Quant and Filing Lens have separate public-release folders at ../elixir-quant and ../filing-lens. Matching image-led project cards lead to repository guides until remote publication is verified. Repository destinations and publication flags live in src/experiments/registry.ts; enable repositoryReady only after the corresponding GitHub repository exists. Elixir Quant is built independently with synthetic data and a simple educational strategy; the private trade-dashboard project is untouched. Filing Lens's existing embedded route remains accessible from its guide. GitHub publication is pending authentication.
+
 A personal interactive economics, finance and data-science portfolio. Current experience: One More Trade. Buy, wait and sell as uncertain prices change. Keep the opening concrete, playful and short. The other five concepts remain proposals.
 
 React, strict TypeScript and Vite; hash routes in App.tsx, shared cards and pages, discovery metadata in experiments/registry.ts. The active model, tests, chart, interface and scoped styles live in src/experiments/stock-playground. Previous mystery-box experiments and src/legacy are preserved but disconnected.

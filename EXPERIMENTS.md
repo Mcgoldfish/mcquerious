@@ -1,5 +1,9 @@
 # Active experience: One More Trade
 
+## Standalone project guides
+
+Elixir Quant is a Finance project with matching illustrated cover, educational backtesting description, and a standalone public edition. Filing Lens is also packaged independently. Both cards will link directly to GitHub once repository publication is verified; until then their guides state publication is pending. Filing Lens remains runnable through its original embedded route. Private Elixir Quant research is never bundled in this portfolio or the public edition.
+
 One loop: buy, watch the price, decide when to sell. Start with 1,000 fictional coins and a 50-coin stock. Upward and downward drift phases alternate, with random countertrend moves inside both. Future turns remain hidden. Run, pause, step and change playback speed.
 
 The chart displays the last 100 ticks, trade markers and average purchase price. The desk shows cash, shares, total value and profit/loss. Recent receipts record actual prices and realized results. New market clears the portfolio and changes the seed.
