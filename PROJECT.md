@@ -104,3 +104,5 @@ Added About me link below the opening slide subtitle, targeting the existing bot
 Owl sprite fix: fixed-position frame layers now switch visibility instead of animating background position, preventing sliding between adjacent sprites.
 
 Removed cursor cat at user request. Owl frames now use explicit per-pose SVG crop windows, centered on each owl with wider wing clearance instead of equal-width sheet assumptions.
+
+Elixir Quant public source is now published at https://github.com/Mcgoldfish/elixirquant. Its card links directly to the verified GitHub repository. Filing Lens remains pending its supplied repository URL.
