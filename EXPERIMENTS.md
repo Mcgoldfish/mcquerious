@@ -76,3 +76,5 @@ Elixir Quant card destination is now its live GitHub Pages app, with source avai
 Elixir Quant: external app opens in a separate tab; public educational content uses the original research-workspace presentation.
 
 Elixir Quant portfolio artwork includes a matching dark-mode variant, preserving the original lettering and illustration.
+
+Elixir Quant public backtests now use a 101-security Nasdaq-100 reference and real dated price histories; legacy simulated runs remain separately labelled.

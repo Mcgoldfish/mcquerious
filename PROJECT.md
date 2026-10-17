@@ -114,3 +114,5 @@ Elixir Quant is deployed at https://mcgoldfish.github.io/elixirquant/. Its portf
 Elixir Quant live app links open in a new tab with noopener/noreferrer. The public app now matches the original black/green sidebar and compact workspace format.
 
 Elixir Quant now has a dedicated dark-mode cover matching the other project cards: forest-green paper, cream ink, sage and gold accents. Theme switching selects elixir-quant-dark.png; light mode retains elixir-quant.png.
+
+Elixir Quant now uses historical adjusted prices for the dated Nasdaq-100 stock reference snapshot, with actual tested dates and Apache ECharts. Portfolio copy updated from synthetic markets. Current-constituent survivorship limitations are stated in the app.
