@@ -74,3 +74,5 @@ Elixir Quant artwork now matches the textured serif and watercolor cover series.
 Elixir Quant card destination is now its live GitHub Pages app, with source available separately from the app footer.
 
 Elixir Quant: external app opens in a separate tab; public educational content uses the original research-workspace presentation.
+
+Elixir Quant portfolio artwork includes a matching dark-mode variant, preserving the original lettering and illustration.

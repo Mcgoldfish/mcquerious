@@ -112,3 +112,5 @@ Elixir Quant cover redesigned using the Filing Lens reference: textured black ed
 Elixir Quant is deployed at https://mcgoldfish.github.io/elixirquant/. Its portfolio card opens the working app; the app footer and README retain a source-code link.
 
 Elixir Quant live app links open in a new tab with noopener/noreferrer. The public app now matches the original black/green sidebar and compact workspace format.
+
+Elixir Quant now has a dedicated dark-mode cover matching the other project cards: forest-green paper, cream ink, sage and gold accents. Theme switching selects elixir-quant-dark.png; light mode retains elixir-quant.png.
