@@ -1,5 +1,7 @@
 # Small Worlds
 
+The owl toggle shows or hides the owl, nest, ropes and perch together, keeping the add control available.
+
 ## Standalone public projects — 2026-10-17
 
 Elixir Quant and Filing Lens have separate public-release folders at ../elixir-quant and ../filing-lens. Matching image-led project cards lead to repository guides until remote publication is verified. Repository destinations and publication flags live in src/experiments/registry.ts; enable repositoryReady only after the corresponding GitHub repository exists. Elixir Quant is built independently with synthetic data and a simple educational strategy; the private trade-dashboard project is untouched. Filing Lens's existing embedded route remains accessible from its guide. GitHub publication is pending authentication.

@@ -1,5 +1,7 @@
 # Active experience: One More Trade
 
+The portfolio owl control adds or removes the entire nest and perch decoration together with the owl.
+
 ## Standalone project guides
 
 Elixir Quant is a Finance project with matching illustrated cover, educational backtesting description, and a standalone public edition. Filing Lens is also packaged independently. Both cards will link directly to GitHub once repository publication is verified; until then their guides state publication is pending. Filing Lens remains runnable through its original embedded route. Private Elixir Quant research is never bundled in this portfolio or the public edition.
