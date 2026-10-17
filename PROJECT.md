@@ -108,3 +108,5 @@ Removed cursor cat at user request. Owl frames now use explicit per-pose SVG cro
 Elixir Quant public source is now published at https://github.com/Mcgoldfish/elixirquant. Its card links directly to the verified GitHub repository. Filing Lens remains pending its supplied repository URL.
 
 Elixir Quant cover redesigned using the Filing Lens reference: textured black editorial serif lettering, ivory paper, and watercolor chart/flask illustration. The card now uses public/covers/elixir-quant.png in both themes, replacing the clean vector cover.
+
+Elixir Quant is deployed at https://mcgoldfish.github.io/elixirquant/. Its portfolio card opens the working app; the app footer and README retain a source-code link.
