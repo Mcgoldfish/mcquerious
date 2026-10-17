@@ -72,3 +72,5 @@ Five coordinated dark covers now switch automatically with light/dark mode.
 Elixir Quant artwork now matches the textured serif and watercolor cover series. No changes to the backtest app or private research.
 
 Elixir Quant card destination is now its live GitHub Pages app, with source available separately from the app footer.
+
+Elixir Quant: external app opens in a separate tab; public educational content uses the original research-workspace presentation.

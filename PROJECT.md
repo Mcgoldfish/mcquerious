@@ -110,3 +110,5 @@ Elixir Quant public source is now published at https://github.com/Mcgoldfish/eli
 Elixir Quant cover redesigned using the Filing Lens reference: textured black editorial serif lettering, ivory paper, and watercolor chart/flask illustration. The card now uses public/covers/elixir-quant.png in both themes, replacing the clean vector cover.
 
 Elixir Quant is deployed at https://mcgoldfish.github.io/elixirquant/. Its portfolio card opens the working app; the app footer and README retain a source-code link.
+
+Elixir Quant live app links open in a new tab with noopener/noreferrer. The public app now matches the original black/green sidebar and compact workspace format.
