@@ -106,3 +106,5 @@ Owl sprite fix: fixed-position frame layers now switch visibility instead of ani
 Removed cursor cat at user request. Owl frames now use explicit per-pose SVG crop windows, centered on each owl with wider wing clearance instead of equal-width sheet assumptions.
 
 Elixir Quant public source is now published at https://github.com/Mcgoldfish/elixirquant. Its card links directly to the verified GitHub repository. Filing Lens remains pending its supplied repository URL.
+
+Elixir Quant cover redesigned using the Filing Lens reference: textured black editorial serif lettering, ivory paper, and watercolor chart/flask illustration. The card now uses public/covers/elixir-quant.png in both themes, replacing the clean vector cover.
