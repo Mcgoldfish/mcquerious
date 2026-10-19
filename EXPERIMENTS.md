@@ -82,3 +82,7 @@ Elixir Quant portfolio artwork includes a matching dark-mode variant, preserving
 Elixir Quant public backtests now use a 101-security Nasdaq-100 reference and real dated price histories; legacy simulated runs remain separately labelled.
 
 FilingLens is published independently at https://mcgoldfish.github.io/filinglens/ with source at https://github.com/Mcgoldfish/filinglens. Its portfolio card opens the standalone app in a new tab. Existing embedded source remains available.
+
+
+## Unlayer
+Unlayer is a standalone DS project, linked to https://mcgoldfish.github.io/unlayer/ in a new tab, alongside Elixir Quant and Filing Lens under Projects. Matching watercolor/serif light and dark covers switch with the portfolio theme. The app separates vocals, drums, bass and other in-browser and displays RMS levels/sample peak; guitar and keyboard remain in Other. No embedded mini-project or Python requirement is added to the portfolio.
