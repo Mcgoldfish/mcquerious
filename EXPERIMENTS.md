@@ -89,3 +89,6 @@ Unlayer is a standalone DS project, linked to https://mcgoldfish.github.io/unlay
 
 
 Portfolio summaries — 2026-10-20: Retained illustrated covers. Entries show title, academic fields, a GitHub README icon, and an independent Open app link. Removed description copy and status footnotes.
+
+
+2026-10-20: Added concise, factual descriptions beneath project titles beside the covers, above the README and Open app controls.
