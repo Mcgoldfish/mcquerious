@@ -86,3 +86,6 @@ FilingLens is published independently at https://mcgoldfish.github.io/filinglens
 
 ## Unlayer
 Unlayer is a standalone DS project, linked to https://mcgoldfish.github.io/unlayer/ in a new tab, alongside Elixir Quant and Filing Lens under Projects. Matching watercolor/serif light and dark covers switch with the portfolio theme. The app separates vocals, drums, bass and other in-browser and displays RMS levels/sample peak; guitar and keyboard remain in Other. No embedded mini-project or Python requirement is added to the portfolio.
+
+
+Portfolio summaries — 2026-10-20: Retained illustrated covers. Entries show title, academic fields, a GitHub README icon, and an independent Open app link. Removed description copy and status footnotes.

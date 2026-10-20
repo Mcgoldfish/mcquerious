@@ -48,3 +48,6 @@
 
 .owl-pet .sage-frame{width:100%;height:100%;overflow:hidden;image-rendering:pixelated}.owl-pet{width:90px;height:84px;left:37px;top:39px}@media(max-width:720px){.owl-pet{width:60px;height:56px;left:22px;top:26px}}
 .bird-perch:not(:has(.perch-art)) .bird-toggle{margin-top:12px}
+
+/* Minimal project summaries. */
+.project-summary .eyebrow{text-transform:uppercase;margin:0 0 12px}.project-summary h3{margin:0;font-size:26px}.project-links{display:flex;align-items:center;gap:18px;margin-top:26px}.project-readme{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:50%;color:var(--green)}.project-open{display:inline-flex;align-items:center;gap:22px;min-height:44px;padding:10px 18px;border:1px solid var(--line);border-radius:24px;color:var(--green);font-size:13px}.project-links a:hover{background:var(--tone-e6eccb,#e6eccb)}
