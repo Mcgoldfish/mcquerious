@@ -92,3 +92,7 @@ Portfolio summaries — 2026-10-20: Retained illustrated covers. Entries show ti
 
 
 2026-10-20: Added concise, factual descriptions beneath project titles beside the covers, above the README and Open app controls.
+
+
+## PriceHunter
+PriceHunter appears under Projects / Data Science with the description “Constructing”. Its light and dark watercolor covers follow the existing Elixir Quant and Unlayer cover series. The card has no launch or repository link while under construction.
