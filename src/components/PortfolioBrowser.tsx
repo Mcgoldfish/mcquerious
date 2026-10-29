@@ -3,7 +3,7 @@ import {experiments} from '../experiments/registry';
 import {ExperimentCard} from './ExperimentCard';
 
 const types = ['Projects', 'Interactives', 'Documents'] as const;
-const fields = ['Econ', 'Finance', 'DS'] as const;
+const fields = ['Finance', 'DS'] as const;
 
 export function PortfolioBrowser() {
   const [field, setField] = useState('');
@@ -22,3 +22,4 @@ export function PortfolioBrowser() {
     })}</div>
   </section>;
 }
+
