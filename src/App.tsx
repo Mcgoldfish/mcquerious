@@ -1,7 +1,7 @@
 import {useEffect, useState, type ComponentType} from 'react';
 import {ProjectHeader} from './components/ProjectHeader';
 import {SiteLayout} from './components/SiteLayout';
-import {Home} from './pages/Home';
+import {Home, Explore} from './pages/Home';
 import {Concept} from './pages/Concept';
 import {experiments} from './experiments/registry';
 import Holdem from './experiments/holdem/Holdem';
@@ -18,11 +18,12 @@ export default function App() {
     window.addEventListener('hashchange', sync);
     return () => window.removeEventListener('hashchange', sync);
   }, []);
+  const exploring = hash === '#/explore' || hash === '#experiments' || hash === '#about';
   const slug = hash.startsWith('#/experiments/') ? hash.slice('#/experiments/'.length) : null;
   const experiment = experiments.find(item => item.slug === slug);
   useEffect(() => {
     document.title = experiment ? `${experiment.title} — McQuerious` : 'McQuerious — Big ideas. Small experiments.';
-    if (slug) window.scrollTo(0, 0);
+    if (slug || hash === '#/explore' || hash === '#' || !hash) window.scrollTo(0, 0);
     else if (hash === '#experiments' || hash === '#about') {
       requestAnimationFrame(() => document.getElementById(hash.slice(1))?.scrollIntoView());
     }
@@ -44,7 +45,8 @@ export default function App() {
     const details = experiment ?? experiments.find(item => item.slug === 'stock-playground')!;
     return <><ProjectHeader title={details.title} category={details.category.split(' · ')[0]} standaloneHref={details.standaloneHref}/><Project/></>;
   }
-  return <SiteLayout>{experiment ? <Concept experiment={experiment}/> : slug ? <main className="concept"><p className="eyebrow">WORLD NOT FOUND</p><h1>Still unexplored.</h1><a className="primary" href="#experiments">Back to the ideas →</a></main> : <Home/>}</SiteLayout>;
+  return <SiteLayout flight={!experiment && !slug && !exploring}>{experiment ? <Concept experiment={experiment}/> : slug ? <main className="concept"><p className="eyebrow">WORLD NOT FOUND</p><h1>Still unexplored.</h1><a className="primary" href="#/explore">Back to the ideas →</a></main> : exploring ? <Explore/> : <Home/>}</SiteLayout>;
 }
+
 
 
