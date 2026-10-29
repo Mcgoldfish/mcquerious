@@ -13,3 +13,9 @@
 .flight-board{width:min(65vw,800px);padding:18px 22px 22px;background:#f4eee2;border-radius:10px;box-shadow:0 18px 55px #0009,0 0 35px #d2d5ed22}
 .board-top{padding:2px 0 12px;letter-spacing:1.4px}.flight-board h2{font:400 clamp(23px,3.3vw,42px) Georgia,serif;letter-spacing:-1px;margin:0 0 14px;color:#222333}.flight-board img{width:100%;aspect-ratio:16/8;object-fit:cover;object-position:top;border-radius:4px;background:#171824;border:1px solid #22233322}.board-copy{align-items:center;padding:17px 0 0}.board-copy p{max-width:75%;font:400 clamp(13px,1.5vw,19px)/1.35 Georgia,serif;color:#292a37}.board-copy>span{white-space:nowrap;font-size:8px;letter-spacing:1px}
 @media(max-width:720px){.flight-board{width:87vw;padding:12px}.flight-board h2{font-size:24px;margin-bottom:9px}.board-top{font-size:7px;padding-bottom:8px}.board-copy{padding:10px 0 0}.board-copy p{font-size:12px;max-width:100%}.board-copy>span{display:none}}
+/* Warm paper-toned journey, consistent with the portfolio masthead. */
+.flight,.flight-stage{background:#f6f4ed;color:#273c32}
+.flight-stars{opacity:.28;background-image:radial-gradient(#a4ae98 1px,transparent 1.5px),radial-gradient(#d3a78c 1px,transparent 1.5px),radial-gradient(#abb7a1 1.5px,transparent 2px)}
+.flight-nebula{border-color:#9caa8d20;box-shadow:0 0 0 8vw #9caa8d08,0 0 0 16vw #9caa8d08}
+.flight-kicker,.flight-end>span,.flight-bottom{color:#73806e}.flight-intro h1{color:#273c32}.flight-intro h1 em{color:#53765b}.flight-intro>p:not(.flight-kicker){color:#6e786b}.flight-intro>a,.flight-end>a{border-color:#9eaa99;color:#273c32}.flight-intro>a:hover,.flight-end>a:hover{background:#e8edde}.flight-progress{background:#dfdfd3}.flight-progress span{background:#9bae8b}
+.flight-board{background:#fffaf0;border-color:#fdfbf5;box-shadow:0 18px 50px #6d66552b,0 2px 8px #6d66551c}
