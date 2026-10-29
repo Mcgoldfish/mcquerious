@@ -11,3 +11,4 @@
 
 
 .flight-board[data-project="filing-lens"] img{background:#f6f4ed}
+html{overflow-x:clip}
