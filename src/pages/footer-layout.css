@@ -1,0 +1,10 @@
+/* A quieter, aligned closing section for the collection. */
+.explore-page .about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:'label label' 'heading copy' 'heading topics';column-gap:clamp(32px,8vw,110px);row-gap:18px;padding:90px 0 76px;border-top:1px solid var(--line)}
+.explore-page .about .eyebrow{grid-area:label;grid-column:auto;margin:0 0 10px;color:var(--muted)}
+.explore-page .about h2{grid-area:heading;font-size:clamp(34px,4vw,50px);line-height:1.18;max-width:500px}
+.explore-page .about>p:not(.eyebrow){grid-area:copy;margin:0;max-width:480px}
+.explore-page .about>span{grid-area:topics;align-self:start;display:inline-block;color:var(--green);font-size:11px;letter-spacing:.04em}
+#main-content:has(.explore-page)+footer{display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:center;padding:27px 0 34px}
+#main-content:has(.explore-page)+footer>span:nth-child(2){text-align:center}
+#main-content:has(.explore-page)+footer>span:last-child{text-align:right}
+@media(max-width:720px){.explore-page .about{grid-template-columns:1fr;grid-template-areas:'label' 'heading' 'copy' 'topics';gap:18px;padding:55px 0}.explore-page .about .eyebrow{margin:0}.explore-page .about h2{font-size:34px}.explore-page .about>p:not(.eyebrow){font-size:14px}#main-content:has(.explore-page)+footer{grid-template-columns:1fr auto;gap:12px 20px}#main-content:has(.explore-page)+footer>span:nth-child(2){grid-column:1/-1;grid-row:2;text-align:left}#main-content:has(.explore-page)+footer>span:last-child{text-align:right}}
