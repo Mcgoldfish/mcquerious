@@ -1,20 +1,13 @@
-import {useState} from 'react';
 import {experiments} from '../experiments/registry';
 import {ExperimentCard} from './ExperimentCard';
 
 const types = ['Projects', 'Interactives', 'Documents'] as const;
-const fields = ['Finance', 'DS'] as const;
 
 export function PortfolioBrowser() {
-  const [field, setField] = useState('');
-
-  const results = experiments.filter(item => !field || item.field === field);
+  const results = experiments;
   return <section id="experiments">
     <div className="section-title"><h2>A collection of curiosities</h2><span>BUILD · EXPLORE · READ</span></div>
-    <div className="discovery-filters" aria-label="Discover by field">
-      <label><span>Field</span><select value={field} onChange={event => setField(event.target.value)}><option value="">All fields</option>{fields.map(value => <option key={value} value={value}>{value}</option>)}</select></label>
-    </div>
-    <p className="collection-count" role="status" aria-live="polite">{results.length} {results.length === 1 ? 'item' : 'items'}{field ? ` · ${field}` : ''}</p>
+    <p className="collection-count" role="status" aria-live="polite">{results.length} {results.length === 1 ? 'item' : 'items'}</p>
     <div className="portfolio-groups">{types.map(value => {
       const items = results.filter(item => item.contentType === value);
       if (!items.length) return null;
